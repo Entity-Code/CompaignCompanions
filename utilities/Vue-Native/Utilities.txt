@@ -14,3 +14,10 @@
 @POSSIBILI FIX (SE NON PRESENTI SCRIVERLI, in modo aumentarli)
 	npm i --save @babel/core@7.0.0
 	npm i --save vue-native-scripts
+
+
+
+@GIT COMMANDS
+	git add .
+	git commit -m "commit comment"
+	git push -u origin main
