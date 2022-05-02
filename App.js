@@ -7,9 +7,14 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start yeaaaaa   working on your app!</Text>
       
-
+      <div>
+        
+        <Text style={styles.container.subContainer}>Ciao</Text>
+        
+      </div>
+      
+      {/*POSSO AGGIUNGERE HTML QUI, ma lo style preso dall'oggetto giu non ci va molto d'accordo*/}
       
       <StatusBar style="auto" />
     </View>
@@ -26,9 +31,15 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#CB3234',
     alignItems: 'center',
     justifyContent: 'center',
+    subContainer: {
+      fontFamily: "Cochin",
+      fontSize: 50,
+      fontWeight: "bold",
+      color: "#fff"
+    }
   }
 
 });
